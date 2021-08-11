@@ -45,12 +45,18 @@
         "jsx-a11y/accessible-emoji": "off",
 
         // Why would you want unused vars?
-        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-var-requires": "off",
+        "no-unused-variable": "off",
+        
+        "no-empty-pattern":"off",
 
         // I suggest this setting for requiring return types on functions only where useful
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+    
         // Includes .prettierrc.js rules
         "prettier/prettier": ["error", {}, {
           "usePrettierrc": true
