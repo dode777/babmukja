@@ -30,7 +30,7 @@
         "plugin:react/recommended", // React rules
         "plugin:react-hooks/recommended", // React hooks rules
         "plugin:jsx-a11y/recommended", // Accessibility rules
-        "plugin:prettier/recommended", // Prettier plugin
+        "plugin:prettier/recommended" // Prettier plugin
       ],
       "rules": {
         // We will use TypeScript"s types for component props instead
@@ -45,12 +45,18 @@
         "jsx-a11y/accessible-emoji": "off",
 
         // Why would you want unused vars?
-        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-var-requires": "off",
+        "no-unused-variable": "off",
+        
+        "no-empty-pattern":"off",
 
         // I suggest this setting for requiring return types on functions only where useful
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+    
         // Includes .prettierrc.js rules
         "prettier/prettier": ["error", {}, {
           "usePrettierrc": true
