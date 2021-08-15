@@ -1,22 +1,12 @@
-import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-
-import { useRootState } from '@/hooks/useRootState';
-import { loadPostsRequest } from '@/reducers/post/getAllPosts';
+import KakaoMap from '@/components/KakaoMap';
+import { useKakaoMap } from '@/hooks/useKakaoMap';
 
 interface homeProps {}
 
 const Home: React.FC<homeProps> = ({}) => {
-  const dispatch = useDispatch();
-  const { allPosts } = useRootState((state) => state.post);
+  const kakaoMap = useKakaoMap();
 
-  useEffect(() => {
-    dispatch(loadPostsRequest());
-  }, [dispatch]);
-
-  console.log(allPosts);
-
-  return <div>test</div>;
+  return <KakaoMap ref={kakaoMap} />;
 };
 
 export default Home;

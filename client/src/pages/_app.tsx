@@ -6,6 +6,13 @@ import { globalStyles } from '@/theme/globalStyle';
 import theme from '@/theme/.';
 import wrapper from '@/store/configureStore';
 
+/* kakao map type */
+declare global {
+  interface Window {
+    kakao: any;
+  }
+}
+
 //최초로 실행되며, 이곳에서 렌더링 하는 겂은 모든페이지에 영향
 function App({ Component, pageProps }: AppProps) {
   return (
