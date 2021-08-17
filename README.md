@@ -43,11 +43,21 @@
 
 ## 💻 Front 기술 스택
 
-|   역할   |            스택명                                                                                                                                                                                                      |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 프레임워크        | <img src="https://img.shields.io/badge/Next-000000?style=flat-square&logo=Next.js&logoColor=white"/>                                                                                                             |
-| CSS-in-JS            | <img src="https://img.shields.io/badge/Emotion-DB7093?style=flat-square&logo=Styled-components&logoColor=white"/>                                                                                               |
-| 상태관리          | <img src="https://img.shields.io/badge/Redux-001add?style=flat-square&logoColor=white"/> <img src="https://img.shields.io/badge/ReduxSaga-001add?style=flat-square&logoColor=white"/>                                                                                                                          |                                                                                                  |
-| 기본 언어     | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>                                                                                                   |
+| 역할 | 스택명 |
+| --- | --- |
+| 프레임워크 | ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) |
+| CSS-in-JS | ![Emotion](https://img.shields.io/badge/Emotion-DB7093?style=for-the-badge&logo=Styled-components&logoColor=white) |
+| 상태관리 | ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) <br> ![ReduxSaga](https://img.shields.io/badge/redux--saga-%23593d88.svg?style=for-the-badge&logo=reduxsaga&logoColor=white) |
+| 기본 언어 | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) |
+
+<br>
+
+## 💻 Back 기술 스택
+
+| 역할 | 스택명 |
+| --- | --- |
+| 프레임워크 | ![SpringBoot](https://img.shields.io/badge/spring--boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white) |
+| 기본 언어 | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) |
+| 데이터베이스 | ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) |
 
 <br>
