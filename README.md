@@ -37,7 +37,7 @@
 
 <br>
 
-## 🎨 [밥묵자 디자인 확인하기](https://www.figma.com/file/Usjrjva4mujv7OofFMzflD/side-project?node-id=531%3A5)
+## 🎨 [밥묵자 디자인 확인하기](https://www.figma.com/file/Potf9ZNZrFr4VM4lTdsP9y?embed_host=notion&kind=&viewer=1)
 
 <br>
 
