@@ -6,6 +6,7 @@ declare module '@emotion/react' {
     BLUE_COLOR: string;
     GRAY_COLOR: string;
     GRAY_BOX: string;
+    BACKGROUND_GRADIENT: string;
     mq: {
       laptop: string;
       tablet: string;

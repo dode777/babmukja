@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import { useRootState } from '@/hooks/useRootState';
 import { loadPostsRequest } from '@/reducers/post/getAllPosts';
+import SideBarMenu from '@/components/SideBarMenu';
 
 interface homeProps {}
 
@@ -16,7 +17,11 @@ const Home: React.FC<homeProps> = ({}) => {
 
   console.log(allPosts);
 
-  return <div>test</div>;
+  return (
+    <div>
+      <SideBarMenu />
+    </div>
+  );
 };
 
 export default Home;

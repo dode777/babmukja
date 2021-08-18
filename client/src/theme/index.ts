@@ -11,6 +11,7 @@ const theme = {
   BLUE_COLOR: '#36f',
   GRAY_COLOR: '#666',
   GRAY_BOX: '#e1e2e3',
+  BACKGROUND_GRADIENT: 'linear-gradient(270deg, #fc686f 0%, #ff924b 100%)',
   mq: {
     laptop: `@media only screen and (min-width: ${size.largest})`,
     tablet: `@media only screen and (min-width: ${size.large})`,
